@@ -8,7 +8,6 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import main.java.entity.Medidor;
-import main.java.utils.HttpConnectionMethods;
 
 @SpringBootApplication
 public class ProjIntegracaoApirestApplication {
