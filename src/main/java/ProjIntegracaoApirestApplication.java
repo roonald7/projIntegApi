@@ -1,13 +1,11 @@
 package main.java;
 
 import java.io.IOException;
-import java.util.List;
 
 import org.springframework.boot.SpringApplication;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import main.java.entity.Medidor;
 
 @SpringBootApplication
 public class ProjIntegracaoApirestApplication {
