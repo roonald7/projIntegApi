@@ -13,6 +13,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 import static springfox.documentation.builders.PathSelectors.regex;
 
 import java.util.ArrayList;
+
 @Configuration
 @EnableSwagger2
 public class SwaggerConfig {
@@ -28,6 +29,7 @@ public class SwaggerConfig {
 	}
 	
 	private ApiInfo metaInfo() {
+		@SuppressWarnings("rawtypes")
 		ApiInfo apiInfo = new ApiInfo(
 				"Medidores API REST",
 				"API REST de cadastro de Medidores.",
