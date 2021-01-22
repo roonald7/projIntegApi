@@ -22,7 +22,17 @@ public class Medidor implements Serializable{
 	private String modelo;
 	
 	private String categoria;
-
+	
+	Medidor(){
+		
+	}
+	
+	Medidor(String linha, String modelo, String categoria){
+		this.linha = linha;
+		this.modelo = modelo;
+		this.categoria = categoria;
+	}
+	
 	public long getId() {
 		return id;
 	}
